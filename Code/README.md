@@ -27,7 +27,9 @@ print("Best hyperparameters: {}".format(trial.params))  #choosign best parameter
 
 2. XGBoose Classifier using Optuna
 
-In this approach, we have used optuna to optimise the hyperparameters of XGBoost classsifier. The n_estimators range from 0 to 1000 and the learning rate ranges from 0.005 to 0.5 loguniformly
+In this approach, we have used optuna to optimise the hyperparameters of XGBoost classsifier. The n_estimators range from 0 to 1000 and the learning rate ranges from 0.005 to 0.5 loguniformly'
+
+NOTE: We have used a GPU based approach to increase the speed of the algorithms. So please refer the notebook before using this code snippet
 
 ```python
 def objective(trial):   
