@@ -16,13 +16,6 @@ def objective(trial):
     
     return clf.score(x_test, y_test)  
 
-study = optuna.create_study(direction='maximize')   #maximising the score
-study.optimize(objective, n_trials=100)  
-
-trial = study.best_trial
-
-print('Accuracy: {}'.format(trial.value))  #accuracy
-print("Best hyperparameters: {}".format(trial.params))  #choosign best parameter with highest accuracy
 ```
 
 2. XGBoose Classifier using Optuna
@@ -54,14 +47,6 @@ def objective(trial):
     model.fit(x_train.drop(columns='3'), y_train)   #fitting the model
 
     return model.score(x_test, y_test)
-
-study = optuna.create_study(direction='maximize')  #maximising the auc
-study.optimize(objective, n_trials=100)  
-
-trial = study.best_trial
-
-print('Accuracy: {}'.format(trial.value))   
-print("Best hyperparameters: {}".format(trial.params))
 ```
 
 3. K-Nearest Neighbours using Optuna
@@ -81,15 +66,4 @@ def objective(trial):  #optuna knn function
     clf.fit(x_train.drop(columns='3'), y_train)
     
     return clf.score(x_test, y_test)
-
-#     return sklearn.model_selection.cross_val_score(clf, x_train.drop(columns='3'), y_train, n_jobs=-1, cv=3).mean()
-
-study = optuna.create_study(direction='maximize')
-study.optimize(objective, n_trials=25)
-
-trial = study.best_trial
-
-print('Accuracy: {}'.format(trial.value))
-print("Best hyperparameters: {}".format(trial.params))
-
 ```
