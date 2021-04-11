@@ -1,5 +1,17 @@
 # Code
 
+CTGAN will extend the dataset by finding out patters in it and following the similar patterns. This extended our dataset from 15000 samples to 1 million samples. For that, we have used to following code snipper:
+
+```python
+from ctgan import CTGANSynthesizer
+discrete_columns = range(100, 120)
+
+ctgan = CTGANSynthesizer(epochs=10)
+ctgan.fit(df, discrete_columns)
+
+samples = ctgan.sample(1000000)
+```
+
 1. Random Forest Classifier using Optuna
 
 In this approach, we have used optuna to optimise the hyperparameters of RFC. The n_estimators range from 2 to 20 and the max_depth ranges from 1 to 32
