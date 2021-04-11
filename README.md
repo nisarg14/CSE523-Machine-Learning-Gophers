@@ -12,7 +12,7 @@ The highest accuracy we obtained so far is 89% in Random Forest Classifier. The 
 # Find our Dataset at
 
 1. [Amazon Bin Image Dataset](https://www.kaggle.com/dhruvildave/amazon-bin-image-dataset)
-2. [Tabularised Amazon Bin Images Dataset](https://www.kaggle.com/dhatrikapuriya/tabularised-dataset-of-amazon-bin-dataset)
+2. [Tabularised Amazon Bin Image Dataset](https://www.kaggle.com/dhatrikapuriya/tabularised-dataset-of-amazon-bin-dataset)
 
 3. [CTGAN Sythetic Data](https://www.kaggle.com/dhatrikapuriya/merged-data)
 
