@@ -29,3 +29,19 @@ As you can see in the graph, the classification of item into -1th bin is where o
 2. [Optimizing Warehouse Operations with Machine Learning on GPUs, C. Seward](https://developer.nvidia.com/blog/optimizing-warehouse-operations-machine-learning-gpus/)
 3. [Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta,and Masanori Koyama. 2019. Optuna: A Next-generation Hyperparameter Optimization Framework. In KDD.](https://optuna.org/#paper)
 4. [Erin LeDell and Sebastien Poirier. H2O AutoML: Scalable Automatic Machine Learning. 7th ICML Workshop on Automated Machine Learning (AutoML), July 2020](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_61.pdf)
+5. https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
+
+6. https://mlli.mit.edu/projects/machine-learning/predicting-warehouse-storage
+
+7. https://machinelearningmastery.com/how-to-define-your-machine-learning-problem/
+
+8. https://developer.nvidia.com/blog/optimizing-warehouse-operations-machine-learning-gpus/
+
+9. https://en.wikipedia.org/wiki/Multiclass_classification
+
+10. https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html
+
+11. https://optuna.org/
+
+12. https://automl.github.io/auto-sklearn/master/
+
