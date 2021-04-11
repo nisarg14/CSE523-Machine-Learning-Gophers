@@ -9,7 +9,7 @@ Our solution for this optimization problem attempts to use Machine Learning tech
 # Results
 The highest accuracy we obtained so far is 89% in Random Forest Classifier. The following graph shows our confusion matrix plot for RFC at various values of n_estimators 
 ### Confusion Matrix
-<img src="https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/confusion_matrix.png" alt="confusion_matrix" width="1000" height="800"/>
+<img src="https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/confusion_matrix.png" alt="confusion_matrix" width="900" height="600"/>
 
 As you can see in the graph, the classification of item into -1th bin is where our error lies. When the bins are full and the algorithm is supposed to not place the item, our algorithm is placing it into a bin. That is where the algorithm is malperforming,
 
