@@ -9,11 +9,16 @@ Our solution for this optimization problem attempts to use Machine Learning tech
 # Results
 The highest accuracy we obtained so far is 89% in Random Forest Classifier. The following graph shows our confusion matrix plot for RFC at various values of n_estimators 
 ### Confusion Matrix
-![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/confusion_matrix.png)
+<img src="https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/confusion_matrix.png" alt="confusion_matrix" width="1000" height="800"/>
 
 As you can see in the graph, the classification of item into -1th bin is where our error lies. When the bins are full and the algorithm is supposed to not place the item, our algorithm is placing it into a bin. That is where the algorithm is malperforming,
-![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparameters_1.png)
-![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparameters_2.png)
+
+## Final result of Random Forest Classifier with varying depth and number of estimators
+
+<img src="https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparameters_1.png" alt="rfc_hyperparameter_1" width="800" height="300"/>
+
+<img src="https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparameters_2.png" alt="rfc_hyperparameter_2" width="800" height="300"/>
+
 # Find our Dataset at
 
 1. [Amazon Bin Image Dataset](https://www.kaggle.com/dhruvildave/amazon-bin-image-dataset)
