@@ -6,12 +6,11 @@ Optimizing your warehouse means examining every corner of your infrastructure an
 
 Our solution for this optimization problem attempts to use Machine Learning techniques to provide a scalable and fast solution to this problem. We used several models like Decision tree, Random Forest Classifier, XGBoost classifier, k-Nearest Neighbours, etc to solve this issue.
 
-The highest accuracy we obtained so far is 89% in Random Forest Classifier. The following graph shows our accuracy plot for RFC at various values of n_estimators 
-
 # Results
+The highest accuracy we obtained so far is 89% in Random Forest Classifier. The following graph shows our confusion matrix plot for RFC at various values of n_estimators 
 ### Confusion Matrix
 ![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/confusion_matrix.png)
-### Final result of Random Forest Classifier with varying depth and number of estimators
+As you can see in the graph, the classification of item into -1th bin is where our error lies. That is where the algorithm is malpeforming,
 ![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparemeters_1.png)
 ![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparmeters_2.png)
 # Find our Dataset at
