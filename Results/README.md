@@ -24,4 +24,7 @@ Random Forest Classifier with hyperparameter turning on max_depth of trees
 <img src="https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparmeters_2.png" alt="drawing" width="800" height="300"/>
 
 
+### confusion_matrix.png
+
+![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/confusion_matrix.png)
 
