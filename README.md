@@ -9,11 +9,6 @@ Our solution for this optimization problem attempts to use Machine Learning tech
 The highest accuracy we obtained so far is 89% in Random Forest Classifier. The following graph shows our accuracy plot for RFC at various values of n_estimators 
 
 
-
-
-
-![rfc](C:\Users\hpj12\Desktop\rfc.svg)
-
 # Find our Dataset at
 
 1. [Amazon Bin Image Dataset](https://www.kaggle.com/dhruvildave/amazon-bin-image-dataset)
@@ -24,9 +19,7 @@ The highest accuracy we obtained so far is 89% in Random Forest Classifier. The 
 
 # References
 
-```
-<a id="1">[1]</a> 
-Dijkstra, E. W. (1968). 
-Go to statement considered harmful. 
-Communications of the ACM, 11(3), 147-148.
-```
+1. [Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.](https://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+2. [Optimizing Warehouse Operations with Machine Learning on GPUs, C. Seward](https://developer.nvidia.com/blog/optimizing-warehouse-operations-machine-learning-gpus/)
+3. [Takuya Akiba, Shotaro Sano, Toshihiko Yanase, Takeru Ohta,and Masanori Koyama. 2019. Optuna: A Next-generation Hyperparameter Optimization Framework. In KDD.](https://optuna.org/#paper)
+4. [Erin LeDell and Sebastien Poirier. H2O AutoML: Scalable Automatic Machine Learning. 7th ICML Workshop on Automated Machine Learning (AutoML), July 2020](https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_61.pdf)
