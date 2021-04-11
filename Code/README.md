@@ -1,4 +1,5 @@
 # Code
+### **CTGAN_Synthetic_Data.py**
 
 CTGAN will extend the dataset by finding out patters in it and following the similar patterns. This extended our dataset from 15000 samples to 1 million samples. For that, we have used to following code snipper:
 
@@ -11,8 +12,8 @@ ctgan.fit(df, discrete_columns)
 
 samples = ctgan.sample(1000000)
 ```
-
-1. Random Forest Classifier (Conventional)
+### **Random_Forest_Classifier.ipynb**
+Random Forest Classifier (Conventional)
 
 In this, we have used Sklearn's random forest classifier algorithm for default values on our dataset
 ```python
@@ -26,8 +27,9 @@ x_test.drop(columns='2', inplace=True)
 
 %time model.score(x_test, y_test)
 ```
+### **rfc_optuna.ipynb**
 
-2. Random Forest Classifier using Optuna
+Random Forest Classifier using Optuna
 
 In this approach, we have used optuna to optimise the hyperparameters of RFC. The n_estimators range from 2 to 20 and the max_depth ranges from 1 to 32
 
@@ -44,8 +46,8 @@ def objective(trial):
     return clf.score(x_test, y_test)  
 
 ```
-
-3. XGBoose Classifier using Optuna
+### **xgboost_classifier_optuna.ipynb**
+XGBoose Classifier using Optuna
 
 In this approach, we have used optuna to optimise the hyperparameters of XGBoost classsifier. The n_estimators range from 0 to 1000 and the learning rate ranges from 0.005 to 0.5 loguniformly'
 
@@ -75,8 +77,9 @@ def objective(trial):
 
     return model.score(x_test, y_test)
 ```
+### **knn_optuna.ipynb**
 
-4. K-Nearest Neighbours using Optuna
+K-Nearest Neighbours using Optuna
 
 In this approach, we have used optuna to optimise the hyperparameters of RFC. The n_neighbors range from 2 to 20 and the leaf_size ranges from 10 to 400
 
