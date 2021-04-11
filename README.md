@@ -8,7 +8,12 @@ Our solution for this optimization problem attempts to use Machine Learning tech
 
 The highest accuracy we obtained so far is 89% in Random Forest Classifier. The following graph shows our accuracy plot for RFC at various values of n_estimators 
 
-
+# Results
+### Confusion Matrix
+![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/confusion_matrix.png)
+### Final result of Random Forest Classifier with varying depth and number of estimators
+![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparemeters_1.png)
+![](https://github.com/nisarg14/CSE523-Machine-Learning-Gophers/blob/main/Results/rfc_hyperparmeters_2.png)
 # Find our Dataset at
 
 1. [Amazon Bin Image Dataset](https://www.kaggle.com/dhruvildave/amazon-bin-image-dataset)
